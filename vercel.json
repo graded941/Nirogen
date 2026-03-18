@@ -7,11 +7,6 @@
   "env": {
     "NODE_ENV": "production"
   },
-  "envPrefix": [
-    "DATABASE_URL",
-    "JWT_SECRET",
-    "NODE_ENV"
-  ],
   "functions": {
     "api/**/*.ts": {
       "runtime": "nodejs20.x",
