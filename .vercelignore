@@ -1,0 +1,57 @@
+# Development files
+.git
+.gitignore
+.env.local
+.env.*.local
+.manus-logs
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules
+pnpm-lock.yaml
+npm-debug.log
+yarn-error.log
+
+# Build artifacts
+dist
+build
+.next
+out
+
+# IDE and editor files
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.sublime-project
+.sublime-workspace
+
+# Testing
+coverage
+.vitest
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Documentation
+README.md
+CHANGELOG.md
+docs
+
+# Config files (not needed in production)
+vite.config.ts
+tsconfig.json
+vitest.config.ts
+drizzle.config.ts
+prettier.config.js
+tailwind.config.js
+
+# Drizzle migrations (handled by db:push)
+drizzle/migrations
+
+# Ideas and notes
+ideas.md
+notes.md
